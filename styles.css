@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	min-width: 400px; /* For json */
+} 
+
+input{
+	width: 100%;
+	padding: 10px ;
+	white-space-collapse: wrap;
+	border: 1px solid rgb(42, 161, 190);
+}
+
+button{
+	padding: 10px 20px;
+	background-color: rgb(42, 161, 190);
+	color: white;
+	margin-top: 5px;
+	border: 1px solid rgb(42, 161, 190);
+	font-weight: bold;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+#delete-btn{
+background-color: white;
+color: rgb(42, 161, 190);
+}
+
+button:hover, input:hover{
+	border: 1px solid blue;
+}
+
+li{
+	margin-top: 5px;
+}
+
+li a{
+	color: rgb(42, 161, 190); 
+}
